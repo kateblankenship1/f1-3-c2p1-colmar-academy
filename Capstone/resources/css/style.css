@@ -1,0 +1,309 @@
+
+
+html, body {
+  font-size: 18px;
+  font-family: "Helvetica", sans-serif;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+/* HEADER */
+
+.header {
+  padding-left: 24px;
+  padding-right: 24px;
+  height: 64px;
+}
+
+.container {
+  height: 32px;
+  display: inline;
+}
+
+.container #colmar {
+  color: #565759;
+  font-weight: bold;
+}
+
+.container #academy {
+  color: gray;
+  opacity: 0.6;
+}
+
+/* NAVIGATION */
+
+nav {
+  display: inline;
+  float: right;
+  margin-top: 1.0em;
+}
+
+nav a {
+  display: inline-block;
+  font-family: Helvetica;
+  font-size: 0.8em;
+  text-decoration: none;
+  color: #565759;
+  border-right: 16px solid #99efe7;
+}
+
+
+
+/* START BANNER */
+
+.start {
+  background-color: #dddcdb;
+}
+
+.headline {
+  display: inline;
+  float: right;
+  color: #545250;
+  width: 25%;
+  padding-right: 130px;
+  padding-top: 165px;
+}
+
+.headline h1 {
+  font-weight: 800;
+  font-size: 2.0em;
+  letter-spacing: 0.3px;
+  padding-bottom: 20px;
+}
+
+.headline h4 {
+  line-height: 25px;
+  font-weight: bold;
+}
+
+.mainbanner img {
+  width: 60%;
+  padding: 32px 25px;
+}
+
+.button {
+  color: white;
+  background-color: #545250;
+  font-family: Arial;
+  text-align: center;
+  width: 300px;
+  font-size: 1.0em;
+  margin-top: 30px;
+  padding-top: 8px;
+  padding-left: 16px;
+  padding-bottom: 8px;
+}
+
+/* MIDDLE */
+
+.information {
+  background-color: white;
+}
+
+.middle {
+  float: left;
+  background-color: white;
+}
+
+.middle img {
+  width: 60%;
+  padding: 32px 24px;
+}
+
+.info {
+  width: 60%;
+  padding-left: 24px;
+  padding-right: 30px;
+}
+
+.info span h2 {
+  padding-bottom: 24px;
+  font-weight: 800;
+  font-size: 2.0em;
+  color: #545250;
+}
+
+.info p {
+  font-size: 0.8em;
+  line-height: 16px;
+  padding-bottom: 32px;
+  color: #6b6a6a;
+}
+
+.info span {
+  padding-bottom: 32px;
+  font-size: 0.7em;
+  font-weight: bold;
+  color: #6b6a6a;
+}
+
+/* SIDEBAR */
+
+.bigger-box {
+  width: 36%;
+  float: right;
+}
+
+.box {
+  border: 1px solid #e8e6e5;
+  position: relative;
+  width: 100%;
+  float: right;
+  bottom: 610px;
+  background-color: white;
+    }
+
+.box-2 {
+  background-color: #e8e6e5;
+  border: 1px solid #e8e6e5;
+  position: relative;
+  width: 100%;
+  float: right;
+  bottom: 610px;
+}
+
+.sidebar img {
+      float: left;
+      height: auto;
+      width: 35%;
+      padding: 16px;
+    }
+
+
+.text h4 {
+  color: #545250;
+  font-weight: bold;
+  padding-top: 50px;
+  padding-bottom: 8px;
+  font-size: 1.5rem;
+}
+
+.text p {
+  font-size: 0.8rem;
+  color: #545250;
+  padding-bottom: 8px;
+}
+
+.text a {
+  color: #8bb1ed;
+  text-decoration: none;
+}
+
+/* BOTTOM */
+
+.flex {
+  margin: 0 auto;
+  width: 100%;
+}
+
+.spacer {
+  max-width: 1200px;
+  margin: auto;
+}
+
+.courses {
+    background-color: #e8e6e5;
+}
+
+.classes {
+  background-color: #e8e6e5;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  flex-direction: row;
+}
+
+.classes img {
+  width: 200px;
+  padding-right: 50px;
+}
+
+.desc {
+  width: 200px;
+  padding-bottom: 32px;
+}
+
+
+.desc p {
+  background-color: white;
+  color: #545250;
+  font-size: 0.8rem;
+  padding-left: 16px;
+  padding-top: 8px;
+  text-align: justify;
+}
+
+.desc h4 {
+  background-color: white;
+  color: #545250;
+  font-size: 1.0rem;
+  font-weight: bold;
+  padding-top: 16px;
+  padding-left: 16px;
+}
+
+.col {
+	display: inline-flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+
+
+#learning {
+  padding-top: 32px;
+  padding-bottom: 32px;
+  background-color: #e8e6e5;
+  margin: 0;
+  text-align: center;
+  font-weight: bold;
+  color: #545250;
+  font-size: 1.5rem;
+}
+
+/* THESIS */
+
+.middle video {
+  padding-left: 24px;
+  padding-right: 24px;
+  padding-bottom: 24px;
+  height: auto;
+  width: 60%;
+}
+
+
+/* FOOTER */
+
+footer {
+  display: inline-block;
+  width: 98%;
+  text-align: left;
+  font-size: 0.7em;
+  border-top: 0.2px solid #bdbebf;
+  padding-left: 24px;
+  padding-top: 16px;
+  padding-bottom: 70px;
+  color: #bdbebf;
+}
+
+/* RESPONSIVE DESIGN */
+
+@media only screen and (max-width: 480px) {
+  body {
+    font-size: 12px;
+  }
+
+  .header {
+    height: 64px;
+    display: none;
+  }
+
+.headline {
+  padding-left: 16px;
+  padding-top: 32px;
+  padding-bottom: 32px;
+}
+
+
+}
